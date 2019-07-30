@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2AF50EC22F753091D389A763 /* Pods_OCUnitTestsWithSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3898B5E39CE70E90BFC30C /* Pods_OCUnitTestsWithSwift.framework */; };
-		5669723F22EFFD90002B25B7 /* DataSourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */; };
 		5669724122EFFF26002B25B7 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682B29522EF00E600BFDC29 /* APIServiceTests.swift */; };
 		5682B27222EEFF3D00BFDC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27122EEFF3D00BFDC29 /* AppDelegate.m */; };
 		5682B27522EEFF3D00BFDC29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27422EEFF3D00BFDC29 /* ViewController.m */; };
@@ -18,6 +17,8 @@
 		5682B28022EEFF3E00BFDC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27F22EEFF3E00BFDC29 /* main.m */; };
 		5682B28A22EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B28922EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m */; };
 		5682B29922EF011000BFDC29 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682B29822EF011000BFDC29 /* APIService.swift */; };
+		56B3067922F05AB8003F82E2 /* MaskedURLMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 56B3067822F05AB8003F82E2 /* MaskedURLMock.json */; };
+		56B3068122F0641C003F82E2 /* DataSourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B3068022F0641B003F82E2 /* DataSourceViewModel.swift */; };
 		C5DE235A7BCB7DE566CB2E2D /* Pods_OCUnitTestsWithSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25720110A64C8ADFBF5D291C /* Pods_OCUnitTestsWithSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +37,6 @@
 		2D3898B5E39CE70E90BFC30C /* Pods_OCUnitTestsWithSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCUnitTestsWithSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAC7EB81205042528E5F984 /* Pods-OCUnitTestsWithSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F4685CA9D5A061EFD020846 /* Pods-OCUnitTestsWithSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwift.debug.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataSourceViewModel.swift; path = ../../../../System/Volumes/Data/Users/charles/Desktop/OCUnitTestsWithSwift/DataSourceViewModel.swift; sourceTree = "<group>"; };
 		5682B26D22EEFF3D00BFDC29 /* OCUnitTestsWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUnitTestsWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5682B27022EEFF3D00BFDC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5682B27122EEFF3D00BFDC29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +54,13 @@
 		5682B29522EF00E600BFDC29 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		5682B29722EF011000BFDC29 /* OCUnitTestsWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCUnitTestsWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		5682B29822EF011000BFDC29 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		56B3067822F05AB8003F82E2 /* MaskedURLMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MaskedURLMock.json; sourceTree = "<group>"; };
+		56B3067B22F06402003F82E2 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		56B3067C22F06402003F82E2 /* Scene+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene+ViewController.swift"; sourceTree = "<group>"; };
+		56B3067D22F06402003F82E2 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
+		56B3067E22F06402003F82E2 /* SceneTransitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransitionType.swift; sourceTree = "<group>"; };
+		56B3067F22F06402003F82E2 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		56B3068022F0641B003F82E2 /* DataSourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceViewModel.swift; sourceTree = "<group>"; };
 		999B0BB9D05317E079D847C3 /* Pods-OCUnitTestsWithSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1C0713661C5CC3028B0EA61 /* Pods-OCUnitTestsWithSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwift.release.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,9 +99,6 @@
 		5682B26422EEFF3D00BFDC29 = {
 			isa = PBXGroup;
 			children = (
-				5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */,
-				5682B29822EF011000BFDC29 /* APIService.swift */,
-				5682B29522EF00E600BFDC29 /* APIServiceTests.swift */,
 				5682B26F22EEFF3D00BFDC29 /* OCUnitTestsWithSwift */,
 				5682B28822EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests */,
 				5682B26E22EEFF3D00BFDC29 /* Products */,
@@ -117,6 +121,9 @@
 		5682B26F22EEFF3D00BFDC29 /* OCUnitTestsWithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				56B3068022F0641B003F82E2 /* DataSourceViewModel.swift */,
+				5682B29822EF011000BFDC29 /* APIService.swift */,
+				56B3067A22F06402003F82E2 /* Scenes */,
 				5682B27022EEFF3D00BFDC29 /* AppDelegate.h */,
 				5682B27122EEFF3D00BFDC29 /* AppDelegate.m */,
 				5682B27322EEFF3D00BFDC29 /* ViewController.h */,
@@ -133,10 +140,24 @@
 		5682B28822EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				56B3067822F05AB8003F82E2 /* MaskedURLMock.json */,
+				5682B29522EF00E600BFDC29 /* APIServiceTests.swift */,
 				5682B28922EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m */,
 				5682B28B22EEFF3E00BFDC29 /* Info.plist */,
 			);
 			path = OCUnitTestsWithSwiftTests;
+			sourceTree = "<group>";
+		};
+		56B3067A22F06402003F82E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				56B3067B22F06402003F82E2 /* Scene.swift */,
+				56B3067C22F06402003F82E2 /* Scene+ViewController.swift */,
+				56B3067D22F06402003F82E2 /* SceneCoordinatorType.swift */,
+				56B3067E22F06402003F82E2 /* SceneTransitionType.swift */,
+				56B3067F22F06402003F82E2 /* SceneCoordinator.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		A133DC267D7BA68637ED824D /* Frameworks */ = {
@@ -244,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B3067922F05AB8003F82E2 /* MaskedURLMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +360,8 @@
 				5682B27522EEFF3D00BFDC29 /* ViewController.m in Sources */,
 				5682B28022EEFF3E00BFDC29 /* main.m in Sources */,
 				5682B29922EF011000BFDC29 /* APIService.swift in Sources */,
-				5669723F22EFFD90002B25B7 /* DataSourceViewModel.swift in Sources */,
 				5682B27222EEFF3D00BFDC29 /* AppDelegate.m in Sources */,
+				56B3068122F0641C003F82E2 /* DataSourceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

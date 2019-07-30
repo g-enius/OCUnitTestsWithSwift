@@ -1,0 +1,25 @@
+{
+    "itemsPerPage": 10, 
+    "startIndex": 1, 
+    "entryCount": 1, 
+    "$xmlns": {
+        "media": "http://search.yahoo.com/mrss/", 
+        "plrelease": "http://xml.theplatform.com/media/data/Release", 
+        "plmedia": "http://xml.theplatform.com/media/data/Media", 
+        "plfile": "http://xml.theplatform.com/media/data/MediaFile", 
+        "pla": "http://xml.theplatform.com/data/object/admin", 
+        "dcterms": "http://purl.org/dc/terms/", 
+        "pl": "http://xml.theplatform.com/data/object"
+    }, 
+    "entries": [
+        {
+            "media$content": [
+                {
+                    "plfile$url": "https://link.theplatform.com/s/7tMqSC/_Ytge2dldBL1?switch=skygo&auto=true&feed=All%20Things%20Feed%20Mobile%20app&switch=skygo", 
+                    "plfile$format": "M3U"
+                }
+            ], 
+            "id": "http://data.media.theplatform.com/media/data/Media/1576867395693"
+        }
+    ]
+}
