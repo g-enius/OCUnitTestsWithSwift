@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AF50EC22F753091D389A763 /* Pods_OCUnitTestsWithSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3898B5E39CE70E90BFC30C /* Pods_OCUnitTestsWithSwift.framework */; };
+		5669723F22EFFD90002B25B7 /* DataSourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */; };
+		5669724122EFFF26002B25B7 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682B29522EF00E600BFDC29 /* APIServiceTests.swift */; };
 		5682B27222EEFF3D00BFDC29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27122EEFF3D00BFDC29 /* AppDelegate.m */; };
 		5682B27522EEFF3D00BFDC29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27422EEFF3D00BFDC29 /* ViewController.m */; };
 		5682B27822EEFF3D00BFDC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5682B27622EEFF3D00BFDC29 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		5682B27D22EEFF3E00BFDC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5682B27B22EEFF3E00BFDC29 /* LaunchScreen.storyboard */; };
 		5682B28022EEFF3E00BFDC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B27F22EEFF3E00BFDC29 /* main.m */; };
 		5682B28A22EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5682B28922EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m */; };
+		5682B29922EF011000BFDC29 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682B29822EF011000BFDC29 /* APIService.swift */; };
+		C5DE235A7BCB7DE566CB2E2D /* Pods_OCUnitTestsWithSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25720110A64C8ADFBF5D291C /* Pods_OCUnitTestsWithSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25720110A64C8ADFBF5D291C /* Pods_OCUnitTestsWithSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCUnitTestsWithSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3898B5E39CE70E90BFC30C /* Pods_OCUnitTestsWithSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCUnitTestsWithSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAC7EB81205042528E5F984 /* Pods-OCUnitTestsWithSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F4685CA9D5A061EFD020846 /* Pods-OCUnitTestsWithSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwift.debug.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataSourceViewModel.swift; path = ../../../../System/Volumes/Data/Users/charles/Desktop/OCUnitTestsWithSwift/DataSourceViewModel.swift; sourceTree = "<group>"; };
 		5682B26D22EEFF3D00BFDC29 /* OCUnitTestsWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCUnitTestsWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5682B27022EEFF3D00BFDC29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5682B27122EEFF3D00BFDC29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +50,12 @@
 		5682B28522EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCUnitTestsWithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5682B28922EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUnitTestsWithSwiftTests.m; sourceTree = "<group>"; };
 		5682B28B22EEFF3E00BFDC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5682B29422EF00E500BFDC29 /* OCUnitTestsWithSwiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCUnitTestsWithSwiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5682B29522EF00E600BFDC29 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		5682B29722EF011000BFDC29 /* OCUnitTestsWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCUnitTestsWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		5682B29822EF011000BFDC29 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		999B0BB9D05317E079D847C3 /* Pods-OCUnitTestsWithSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C0713661C5CC3028B0EA61 /* Pods-OCUnitTestsWithSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCUnitTestsWithSwift.release.xcconfig"; path = "Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF50EC22F753091D389A763 /* Pods_OCUnitTestsWithSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DE235A7BCB7DE566CB2E2D /* Pods_OCUnitTestsWithSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C64E63E747419EAE95EB2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F4685CA9D5A061EFD020846 /* Pods-OCUnitTestsWithSwift.debug.xcconfig */,
+				B1C0713661C5CC3028B0EA61 /* Pods-OCUnitTestsWithSwift.release.xcconfig */,
+				999B0BB9D05317E079D847C3 /* Pods-OCUnitTestsWithSwiftTests.debug.xcconfig */,
+				2EAC7EB81205042528E5F984 /* Pods-OCUnitTestsWithSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5682B26422EEFF3D00BFDC29 = {
 			isa = PBXGroup;
 			children = (
+				5669723E22EFFD90002B25B7 /* DataSourceViewModel.swift */,
+				5682B29822EF011000BFDC29 /* APIService.swift */,
+				5682B29522EF00E600BFDC29 /* APIServiceTests.swift */,
 				5682B26F22EEFF3D00BFDC29 /* OCUnitTestsWithSwift */,
 				5682B28822EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests */,
 				5682B26E22EEFF3D00BFDC29 /* Products */,
+				5682B29422EF00E500BFDC29 /* OCUnitTestsWithSwiftTests-Bridging-Header.h */,
+				5682B29722EF011000BFDC29 /* OCUnitTestsWithSwift-Bridging-Header.h */,
+				08C64E63E747419EAE95EB2F /* Pods */,
+				A133DC267D7BA68637ED824D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +139,15 @@
 			path = OCUnitTestsWithSwiftTests;
 			sourceTree = "<group>";
 		};
+		A133DC267D7BA68637ED824D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D3898B5E39CE70E90BFC30C /* Pods_OCUnitTestsWithSwift.framework */,
+				25720110A64C8ADFBF5D291C /* Pods_OCUnitTestsWithSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5682B28E22EEFF3E00BFDC29 /* Build configuration list for PBXNativeTarget "OCUnitTestsWithSwift" */;
 			buildPhases = (
+				3DD605FA4335B35F3828F636 /* [CP] Check Pods Manifest.lock */,
 				5682B26922EEFF3D00BFDC29 /* Sources */,
 				5682B26A22EEFF3D00BFDC29 /* Frameworks */,
 				5682B26B22EEFF3D00BFDC29 /* Resources */,
+				E52B074201A674BF3D1999E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5682B29122EEFF3E00BFDC29 /* Build configuration list for PBXNativeTarget "OCUnitTestsWithSwiftTests" */;
 			buildPhases = (
+				352402135C15C92C2FD5CCD3 /* [CP] Check Pods Manifest.lock */,
 				5682B28122EEFF3E00BFDC29 /* Sources */,
 				5682B28222EEFF3E00BFDC29 /* Frameworks */,
 				5682B28322EEFF3E00BFDC29 /* Resources */,
+				D8631C59EB3E89943CE1A81C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,11 @@
 				TargetAttributes = {
 					5682B26C22EEFF3D00BFDC29 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					5682B28422EEFF3E00BFDC29 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 						TestTargetID = 5682B26C22EEFF3D00BFDC29;
 					};
 				};
@@ -198,6 +249,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		352402135C15C92C2FD5CCD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCUnitTestsWithSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD605FA4335B35F3828F636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCUnitTestsWithSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8631C59EB3E89943CE1A81C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwiftTests/Pods-OCUnitTestsWithSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52B074201A674BF3D1999E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCUnitTestsWithSwift/Pods-OCUnitTestsWithSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5682B26922EEFF3D00BFDC29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -205,6 +337,8 @@
 			files = (
 				5682B27522EEFF3D00BFDC29 /* ViewController.m in Sources */,
 				5682B28022EEFF3E00BFDC29 /* main.m in Sources */,
+				5682B29922EF011000BFDC29 /* APIService.swift in Sources */,
+				5669723F22EFFD90002B25B7 /* DataSourceViewModel.swift in Sources */,
 				5682B27222EEFF3D00BFDC29 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5669724122EFFF26002B25B7 /* APIServiceTests.swift in Sources */,
 				5682B28A22EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +385,7 @@
 		5682B28C22EEFF3E00BFDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -309,6 +445,7 @@
 		5682B28D22EEFF3E00BFDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -361,8 +498,11 @@
 		};
 		5682B28F22EEFF3E00BFDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4685CA9D5A061EFD020846 /* Pods-OCUnitTestsWithSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM48469R2H;
 				INFOPLIST_FILE = OCUnitTestsWithSwift/Info.plist;
@@ -372,14 +512,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.skytv.OCUnitTestsWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCUnitTestsWithSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5682B29022EEFF3E00BFDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C0713661C5CC3028B0EA61 /* Pods-OCUnitTestsWithSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM48469R2H;
 				INFOPLIST_FILE = OCUnitTestsWithSwift/Info.plist;
@@ -389,14 +535,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.skytv.OCUnitTestsWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCUnitTestsWithSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		5682B29222EEFF3E00BFDC29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999B0BB9D05317E079D847C3 /* Pods-OCUnitTestsWithSwiftTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM48469R2H;
 				INFOPLIST_FILE = OCUnitTestsWithSwiftTests/Info.plist;
@@ -407,6 +558,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.skytv.OCUnitTestsWithSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCUnitTestsWithSwiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCUnitTestsWithSwift.app/OCUnitTestsWithSwift";
 			};
@@ -414,8 +568,11 @@
 		};
 		5682B29322EEFF3E00BFDC29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAC7EB81205042528E5F984 /* Pods-OCUnitTestsWithSwiftTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM48469R2H;
 				INFOPLIST_FILE = OCUnitTestsWithSwiftTests/Info.plist;
@@ -426,6 +583,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nz.co.skytv.OCUnitTestsWithSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCUnitTestsWithSwiftTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCUnitTestsWithSwift.app/OCUnitTestsWithSwift";
 			};
