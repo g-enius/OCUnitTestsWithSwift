@@ -11,8 +11,6 @@ import RxSwift
 import Moya
 import SwiftyJSON
 
-
-
 struct DataSourceViewModel {
     //MARK: INPUT
     let provider: MoyaProvider<APIService>
@@ -27,7 +25,8 @@ struct DataSourceViewModel {
     //MARK: OUTPUT
     var maskedURL: Single<String> {
         return provider.rx.request(.maskedURL(mediaID: mediaID))//Single<Response>
-                            .filter(statusCode: 200)
+            .debug("maskedURL")
+            .filter(statusCode: 200)
             .map { response in
                 if let url = try JSON(data: response.data)["entries"][0]["media$content"][0]["plfile$url"].string,
                     !url.isEmpty {

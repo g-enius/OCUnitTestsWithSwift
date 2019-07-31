@@ -12,7 +12,6 @@ import Moya
 enum APIService {
     case maskedURL(mediaID: String)
     case currencyLock
-    
 }
 
 enum APIServiceError: Error {
@@ -21,11 +20,22 @@ enum APIServiceError: Error {
 }
 
 extension APIService: TargetType {
-    var baseURL: URL { return URL(string: "https://feed.theplatform.com")! }
+    private var urlFromRemoteConfig: String { return "https://feed.theplatform.com/f/7tMqSC/T2XJ65T_soBz/" }
+
+    var baseURL: URL {
+        guard let baseString = URL(string: urlFromRemoteConfig)?.host,
+            let baseURL = URL(string: ("https://" + baseString))
+            else { return URL(string: "")!}
+        return baseURL
+    }
+    
     var path: String {
         switch self {
         case .maskedURL:
-            return "/f/7tMqSC/T2XJ65T_soBz/"
+//            return "/f/7tMqSC/T2XJ65T_soBz/"
+            guard let pathString: String = URL(string: urlFromRemoteConfig)?.relativePath else { return "" }
+
+            return pathString
             
         case .currencyLock:
             return ""

@@ -26,12 +26,12 @@ class APIServiceTests: XCTestCase {
         dataSourceViewModel = DataSourceViewModel(apiProvider: MoyaProvider<APIService>(),
                                                   mediaID: "1561120323747")
         
-        stub(condition: isHost("feed.theplatform.com")) { _ in
-            // Stub it with our "MaskedURLMock.json" stub file (which is in same bundle as self)
-            let stubPath = OHPathForFile("MaskedURLMock.json", type(of: self))
-            return fixture(filePath: stubPath!, headers: ["Content-Type":"application/json"])
-        }
-        
+//        stub(condition: isHost("feed.theplatform.com")) { _ in
+//            // Stub it with our "MaskedURLMock.json" stub file (which is in same bundle as self)
+//            let stubPath = OHPathForFile("MaskedURLMock.json", type(of: self))
+//            return fixture(filePath: stubPath!, headers: ["Content-Type":"application/json"])
+//        }
+//
         stub(condition: isHost("error.com")) { _ in
           return OHHTTPStubsResponse(error: APIServiceError.unknown)
         }
@@ -43,8 +43,7 @@ class APIServiceTests: XCTestCase {
         OHHTTPStubs.removeAllStubs()
     }
     
-    func testMaskedURL() {
-        expect(self.dataSourceViewModel.maskedURL.toBlocking().firstOrNil()).to(contain("https://link.theplatform.com"))
+    func testMaskedURL() { expect(self.dataSourceViewModel.maskedURL.toBlocking().firstOrNil()).to(contain("https://link.theplatform.com"))
     }
     
     func testPerformanceExample() {
