@@ -54,6 +54,7 @@
 		5682B29522EF00E600BFDC29 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 		5682B29722EF011000BFDC29 /* OCUnitTestsWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCUnitTestsWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		5682B29822EF011000BFDC29 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		569374BD22F5699900CF8FDA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		56B3067822F05AB8003F82E2 /* MaskedURLMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MaskedURLMock.json; sourceTree = "<group>"; };
 		56B3067B22F06402003F82E2 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		56B3067C22F06402003F82E2 /* Scene+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scene+ViewController.swift"; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		5682B26422EEFF3D00BFDC29 = {
 			isa = PBXGroup;
 			children = (
+				569374BD22F5699900CF8FDA /* MyPlayground.playground */,
 				5682B26F22EEFF3D00BFDC29 /* OCUnitTestsWithSwift */,
 				5682B28822EEFF3E00BFDC29 /* OCUnitTestsWithSwiftTests */,
 				5682B26E22EEFF3D00BFDC29 /* Products */,
